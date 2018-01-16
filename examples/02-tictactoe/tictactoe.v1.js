@@ -47,7 +47,7 @@ function renderWhenReady(){
 	);
 }
 
-if( document.readyState === 'complete' ) {
+if ( document.readyState === 'complete' || document.readyState === 'interactive' ) {
 	renderWhenReady();
 } else {
 	document.addEventListener( 'DOMContentLoaded', ()=>{
