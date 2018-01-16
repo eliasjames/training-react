@@ -15,3 +15,7 @@ Lines:
   - increment square sequence variable inside row loop
 - 28:
   - reset row variable before next board loop
+
+Files: tictactoe.v1.1.html > tictactoe.v2.html
+Lines: 
+- 9: change script tag to v2
