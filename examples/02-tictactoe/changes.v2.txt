@@ -1,6 +1,6 @@
 Change summary: Pass ID into Square
 Method: Add attributes to JSX elements which are then available inside component
-Reason: Communication between elements
+Reason: Props is the React feature for communicating from a parent component to a child
 Files: tictactoe.v1.1.js > tictactoe.v2.js
 Lines: 
 - 5: replace TODO with 'this.props.value' for demo/display purposes
