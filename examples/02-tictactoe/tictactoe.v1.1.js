@@ -19,7 +19,7 @@ class Board extends React.Component {
 			eachRowLayout = [];
 
     for ( let i=0; i<3; i++ ) {
-      eachRowLayout.push( renderSquare() );
+      eachRowLayout.push( this.renderSquare() );
     }
     for ( let i=0; i<3; i++ ) {
       boardLayout.push( <div key={i} className="board-row">{ eachRowLayout }</div> );
