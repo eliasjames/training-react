@@ -7,8 +7,8 @@
   "license": "BSD-3-Clause",
   "main": "bundle.js",
   "scripts": {
-    "build": "webpack ./src/root.js ./bundle.js",
-    "watch": "webpack ./src/root.js ./bundle.js --watch",
+    "build": "webpack",
+    "watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
