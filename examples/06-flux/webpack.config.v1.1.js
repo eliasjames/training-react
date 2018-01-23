@@ -1,6 +1,7 @@
 const path = require( 'path' );
 
 module.exports = {
+  devtool: 'source-map',
   entry: './src/root.v1.1.js',
   module: {
     loaders: [
