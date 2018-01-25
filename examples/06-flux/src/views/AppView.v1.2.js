@@ -3,8 +3,6 @@ import React from 'react';
 function AppView(props) {
   return (
     <div>
-     {/*   <h2>blerg</h2>
-    */}
       <Header {...props} />
       <Main {...props} />
       <Footer {...props} /> 
